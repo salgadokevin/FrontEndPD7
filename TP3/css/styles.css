@@ -1,0 +1,313 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 700px){
+  .parrafo p{
+    font-size: .9em;
+    background-color: #8EC5FC;
+    background-image: -webkit-linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background-image: -moz-linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background-image: -o-linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    width: 85vw;
+    padding: 5px;}
+  }
+
+  @media (max-width: 700px){
+    .titulo h1{
+      font-size: 2.3em;}
+    }
+
+    @media (max-width: 700px){
+      .mapasuecia{
+        display: none;}
+      }
+
+      @media (max-width: 700px){
+        .receta{
+          width: 80vw;}
+        }
+
+        @media (max-width: 700px){
+          nav{border:1.5px solid;}
+        }
+
+        @media (max-width: 700px){
+          .objeto1 {display: none;}
+          .redes {display: none;}
+        }
+
+        @media (min-width: 700px){
+          header {display: none;}
+        }
+
+        @media (max-width: 700px){
+          .alinearimagen {display: none;}
+        }
+
+        @media (min-width: 700px){
+          .presentacion {display: none;}
+        }
+        .presentacion img{width: 85vw;}
+
+        @media (max-width: 700px){
+          .mapabarrio{display: none;}
+        }
+
+        @media (max-width: 700px){
+          .botones{margin: 10px;}
+        }
+
+        @font-face {
+          font-family: "lexend";
+          src: url(../fuentes/LexendDeca-Regular.ttf)
+          format("truetype");
+        }
+        .menu {
+          font-family: "Righteous";
+        }
+
+        h1{font-family: 'Righteous', cursive;}
+
+        main {font-family: "lexend";}
+
+        p {font-family: "lexend";}
+
+        body{
+          font-family: arial;
+          background-color: white;
+          background-image: linear-gradient(90deg, #DEB1FB, #9FFAED);
+        }
+
+        header{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+          padding: 1%;
+          background: white;
+          background-image: linear-gradient(90deg, #FCC3B0, #FCDBB0, #FCEDB0, #DBFCB0, #BAFCB0, #B0FCDF, #B0E8FC, #B4B0FC, #F0B0FC, #FCB0E8, #FCB0BF);
+        }
+
+        .objeto1 > img{
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+        }
+
+        .redes a{
+          text-decoration: none;
+          font-size: 28px;
+          width: 60px;
+          height: 60px;
+          line-height: 60px;
+          text-align: center;
+          background-color: #4158D0;
+          background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+          color: #f1f1f1;
+          border-radius: 50%;
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+          transition: all .4s ease-in-out;
+        }
+
+        .redes a:hover{
+          transform: scale(1.2);
+        }
+
+        .whatsapp{
+          position:fixed;
+          width:60px;
+          height:60px;
+          bottom:40px;
+          right:40px;
+          background-color: #00ff70;
+          background-image: -webkit-linear-gradient(45deg, #00ff70 0%, #FFFB7D 100%);
+          background-image: -moz-linear-gradient(45deg, #00ff70 0%, #FFFB7D 100%);
+          background-image: -o-linear-gradient(45deg, #00ff70 0%, #FFFB7D 100%);
+          background-image: linear-gradient(45deg, #00ff70 0%, #FFFB7D 100%);
+          color: black;
+          border-radius:50px;
+          text-align:center;
+          font-size:40px;
+          z-index:100;
+          border: 2px solid white;
+        }
+
+        .mi-boton{
+          margin-top: 10px;
+        }
+
+        h1 {
+          font-size: 2.7em;
+          margin-left: 13vw;
+        }
+
+        h2 {font-size: 25px;
+          text-align: center;
+          text-decoration: underline;}
+
+
+          figure{
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+          }
+
+          main{
+            display: flex;
+            justify-content: center;
+            width: 60vw;
+            height: auto;
+            margin: 2rem auto;
+            text-align: left;
+          }
+
+          .alinearimagen {
+            height: 100%;
+            width: 100%;
+            max-width: 700px;
+          }
+
+          .alinearmapa{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 1%;
+          }
+
+          .alinearvideo{
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+          }
+
+          p {
+            font-size: 15px;
+            margin: auto;
+            width: 60vw;
+            height: auto;
+          }
+
+          h3{font-size: 15px;
+            text-align: center;
+            text-decoration: underline;}
+
+            b {font-size: 15px;}
+
+            ul{font-size: 15px;}
+
+            ol {font-size: 15px;}
+
+            .botones a{
+              text-decoration: none;
+              font-size: 28px;
+              width: 60px;
+              height: 60px;
+              line-height: 60px;
+              text-align: center;
+              background-color: #4158D0;
+              background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+              color: #f1f1f1;
+              border-radius: 50%;
+              box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+              transition: all .4s ease-in-out;
+              margin-right: 2px;
+            }
+
+            .botones a:hover{
+              transform: scale(1.2);
+            }
+
+            footer{
+              display: flex;
+              flex-wrap: wrap;
+              background-color: #FF3CAC;
+              background-image: -webkit-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+              background-image: -moz-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+              background-image: -o-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+              background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+              margin: auto;
+              width: auto;
+              height: auto;
+              align-items: center;
+              padding: 10px;
+              justify-content: space-around;
+            }
+
+            .informacion p{
+              color: white;
+              margin: auto;
+              width: auto;
+              height: auto;
+            }
+
+            .menu{
+              list-style: none;
+              padding: 0;
+              background-color: white;
+              width: 100%;
+              margin: auto;
+            }
+
+            .menuvertical{
+              position: absolute;
+              display: none;
+              list-style: none;
+              width: 137px;
+              background-image: linear-gradient(90deg, #DEB1FB, #9FFAED);
+            }
+
+            .menu .centrar li:hover .menuvertical{
+              display: block;
+            }
+            .centrar {
+              text-align: center;
+            }
+
+            .menu li a{
+              text-decoration: none;
+              color: black;
+              padding: 20px;
+              display: block;
+            }
+
+            .menu li{
+              display: inline-block;
+              text-align: center;
+            }
+
+            .menu li a:hover{
+              background-image: linear-gradient(90deg, #FCC3B0, #FCDBB0, #FCEDB0, #DBFCB0, #BAFCB0, #B0FCDF, #B0E8FC, #B4B0FC, #F0B0FC, #FCB0E8, #FCB0BF);
+            }
+
+            .card{
+              margin: 1%;
+              background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+            }
+
+            .container{
+              padding: 1%;
+            }
+
+            .col-sm-12 {
+              align-items: center;
+              text-align: center;
+            }
+
+            .col-md-6 {
+              align-items: center;
+              text-align: center;
+            }
+
+            .col-lg-3 {
+              align-items: center;
+              text-align: center;
+            }
+
+            .card-body a{
+              background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+            }
